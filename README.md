@@ -52,7 +52,7 @@ The following hyperparameters were used during training:
 - lr_scheduler_type: polynomial
 - training_steps: 1000
 
-![IOU plots]('./mit-b2-crop_v0.png')
+![IOU plots](./mit-b2-crop_v0.png)
 
 ### Training results
 
