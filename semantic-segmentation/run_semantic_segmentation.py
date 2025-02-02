@@ -268,6 +268,7 @@ def main():
 
     # Load the mean IoU metric from the evaluate package
     metric = evaluate.load("mean_iou", cache_dir=model_args.cache_dir)
+    # metric2 = evaluate.load("confusion_matrix", cache_dir=model_args.cache_dir)
 
     # Define our compute_metrics function. It takes an `EvalPrediction` object (a namedtuple with a
     # predictions and label_ids field) and has to return a dictionary string to float.
