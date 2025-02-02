@@ -58,5 +58,5 @@ checkpoint_path = r"C:\Users\skyli\Downloads\checkpoint_epoch_2.pth"  # Adjust t
 model = load_model_from_checkpoint(checkpoint_path)
 
 # Choose an image to visualize (using raw string)
-image_path = r"C:\Users\skyli\Downloads\label-20250201T195206Z-001\label\residue_background\Ritzville2-SprWheat1m20220329\IMG_0784\IMG_0784_part02.jpg"
+image_path = r"C:\Users\skyli\Downloads\label-20250201T195206Z-001\label\residue_background\Ritzville2-SprWheat1m20220329\IMG_0784\IMG_0784_part02.jpg" # Adjust this path to where your test images exist
 visualize_prediction(image_path, model)
