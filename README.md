@@ -51,7 +51,7 @@ The following hyperparameters were used during training:
 - optimizer: Use OptimizerNames.ADAMW_TORCH with betas=(0.9,0.999) and epsilon=1e-08 and optimizer_args=No additional optimizer arguments
 - lr_scheduler_type: polynomial
 - training_steps: 1000
-
+Here Mean IOU is just the half of the IOU Residue as IOU background is zero.
 ![IOU plots](./mit-b2-crop_v0.png)
 
 ### Training results
