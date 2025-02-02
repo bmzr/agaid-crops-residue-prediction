@@ -11,9 +11,6 @@ model-index:
   results: []
 ---
 
-<!-- This model card has been generated automatically according to the information the Trainer had access to. You
-should probably proofread and complete it, then remove this comment. -->
-
 # mit-b2-crop_v0
 
 This model is a fine-tuned version of [nvidia/mit-b2](https://huggingface.co/nvidia/mit-b2) on the Sowmith1999/agaid_residue_only dataset.
@@ -27,17 +24,9 @@ It achieves the following results on the evaluation set:
 - Iou Background: 0.0
 - Iou Residue: 0.7611
 
-## Model description
-
-More information needed
-
-## Intended uses & limitations
-
-More information needed
-
 ## Training and evaluation data
 
-More information needed
+Residue Only data
 
 ## Training procedure
 
