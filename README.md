@@ -85,6 +85,12 @@ The following hyperparameters were used during training:
 | 0.2434        | 27.0    | 999  | 0.2801          | 0.3855   | 0.7711        | 0.7711           | nan                 | 0.7711           | 0.0            | 0.7711      |
 | 0.2434        | 27.0270 | 1000 | 0.2808          | 0.3806   | 0.7611        | 0.7611           | nan                 | 0.7611           | 0.0            | 0.7611      |
 
+#### Confusion Matrix
+|  | Positive | Negative |
+| --------------- | --------------- | --------------- |
+| Positive | 67.4 | 5.3 |
+| Negative | 5.3 | 22 |
+
 
 ### Framework versions
 
